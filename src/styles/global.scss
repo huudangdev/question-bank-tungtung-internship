@@ -1,0 +1,41 @@
+@import './mixins';
+
+@import '~normalize.css';
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+// Here you put all global css rules.
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Bookerly;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafbfb;
+  font-weight: 400;
+  outline: 0;
+  scroll-behavior: smooth;
+  //overflow: hidden;
+}
+.displaycenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+}
+a {
+  &:hover{
+    text-decoration: none;
+  }
+  text-decoration: none;
+  outline: none;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

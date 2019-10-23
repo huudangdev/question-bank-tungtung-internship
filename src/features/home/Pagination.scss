@@ -1,0 +1,37 @@
+@import '../../styles/mixins';
+
+.home-pagination {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+  .w-ip {
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    .arr{
+      &:hover{
+        cursor: pointer
+      }
+      margin: 0px 16px;
+    }
+    input[type='number'] {
+      height: 24px;
+      border-radius: 5px;
+      outline: 0;
+      border: 0;
+      background-color: #eeeeee;
+      width: 48px;
+      padding: 0 10px;
+      padding-right: 0;
+      padding-bottom: 4px;
+      text-align: right;
+      font-family: Bookerly;
+      font-size: 16px;
+      color: black;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-weight: 400;
+      margin-right: 4px;
+    }
+  }
+}

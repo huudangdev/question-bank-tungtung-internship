@@ -1,0 +1,38 @@
+@import '../../styles/mixins';
+
+.home-nav {
+  display: flex;
+  padding: 8px 8px;
+  background-color: #c5c5c5;
+  font-weight: bold;
+  border: 1px solid #cdcdcd;
+  border-bottom: none;
+  box-shadow: rgba(235, 232, 232, 0.498) 0px 1px 4px 0px;
+  .Navquestion {
+    flex: 4 1 0%;
+    padding: 0 4px;
+  }
+  .Navstatus {
+    flex: 1 1 0%;
+    text-align: center;
+    padding: 0 4px;
+  }
+  .NavcorrectAns {
+    @extend .Navstatus;
+  }
+  .Navtype {
+    @extend .Navstatus;
+  }
+  .Navhas-suggest-answer {
+    @extend .Navstatus;
+  }
+  .Navsolution {
+    @extend .Navstatus;
+  }
+  .NavcreatedAt {
+    @extend .Navstatus;
+  }
+  .NavupdatedAt {
+    @extend .Navstatus;
+  }
+}

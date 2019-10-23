@@ -1,0 +1,25 @@
+@import '../../styles/mixins';
+
+.content-question {
+  margin-bottom: 16px;
+  .wrap-question {
+    display: flex;
+    font-style: normal;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 28px;
+    letter-spacing: -0.003em;
+    padding: 8px 0px;
+    .question-content {
+      text-align: left;
+      font-family: Bookerly;
+      font-size: 16px;
+      color: rgb(0, 0, 0);
+      flex: 1 1 0%;
+      max-width: 100%;
+      span {
+        text-align: left;
+      }
+    }
+  }
+}

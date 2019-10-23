@@ -1,0 +1,20 @@
+@import '../../styles/mixins';
+
+.list-questions {
+  position: relative;
+  background-color: #eeeeee;
+  border: 1px solid #cdcdcd;
+  border-bottom: none;
+  height: 80vh;
+  overflow-y: scroll;
+  .loading {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
