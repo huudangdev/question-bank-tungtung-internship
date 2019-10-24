@@ -2,7 +2,7 @@
   "name": "questionsbank",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://huudangdev.github.io/QuestionBank-v.1.0-/",
+  "homepage": "https://huudangdev.github.io/QuestionBank/",
   "dependencies": {
     "@blueprintjs/core": "^3.19.1",
     "autoprefixer": "7.1.6",
